@@ -1,0 +1,3063 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Santander_Comentarios_1.xlsx
+Query=`Santander_Comentarios_1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Cargo_name" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_WString" />
+            <Field name="Cargo_url" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_WString" />
+            <Field name="Cargo_Comentario" size="1334" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_WString" />
+            <Field name="Cargo_Ubicacion" size="1092" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_WString" />
+            <Field name="Cargo_Ubicacion_url" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_String" />
+            <Field name="Cargo_Rating" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="V_String" />
+            <Field name="F7" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_1.xlsx|||`Santander_Comentarios_1$`" type="Double" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Santander_Comentarios_2.xlsx
+Query=`Santander_Comentarios_2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Cargo_name" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="Cargo_url" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="Cargo_Comentario" size="816" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="Cargo_Ubicacion" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="Cargo_Ubicacion_url" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="Cargo_Rating" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="F7" size="255" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="V_String" />
+            <Field name="F8" source="File: C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Santander_Comentarios_2.xlsx|||`Santander_Comentarios_2$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="414" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Cargo_name" selected="True" rename="Cargo" />
+            <SelectField field="Cargo_Comentario" selected="True" rename="Comentario" />
+            <SelectField field="Cargo_Ubicacion" selected="True" rename="Ubicacion" type="V_String" size="1092" />
+            <SelectField field="Cargo_Rating" selected="True" rename="Rate" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Cargo_name" selected="True" rename="Cargo" />
+            <SelectField field="Cargo_Comentario" selected="True" rename="Comentario" />
+            <SelectField field="Cargo_Ubicacion" selected="True" rename="Ubicacion" />
+            <SelectField field="Cargo_Rating" selected="True" rename="Rate" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="414" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="96" />
+          <Fields>
+            <Field name="Latin1" />
+            <Field name="UTF-1" />
+            <Field name="UTF-8" />
+            <Field name="UTF-7,5" />
+            <Field name="UTF-7" />
+            <Field name="JAVA" />
+            <Field name="HTML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Â</c>
+              <c>¢à</c>
+              <c>+AKA-</c>
+              <c>\u00a0</c>
+              <c>&amp;#160;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>¡</c>
+              <c><![CDATA[ ¡]]></c>
+              <c>Â¡</c>
+              <c>¢á</c>
+              <c>+AKE-</c>
+              <c>\u00a1</c>
+              <c>&amp;#161;</c>
+            </r>
+            <r>
+              <c>¢</c>
+              <c><![CDATA[ ¢]]></c>
+              <c>Â¢</c>
+              <c>¢â</c>
+              <c>+AKI-</c>
+              <c>\u00a2</c>
+              <c>&amp;#162;</c>
+            </r>
+            <r>
+              <c>£</c>
+              <c><![CDATA[ £]]></c>
+              <c>Â£</c>
+              <c>¢ã</c>
+              <c>+AKM-</c>
+              <c>\u00a3</c>
+              <c>&amp;#163;</c>
+            </r>
+            <r>
+              <c>¤</c>
+              <c><![CDATA[ ¤]]></c>
+              <c>Â¤</c>
+              <c>¢ä</c>
+              <c>+AKQ-</c>
+              <c>\u00a4</c>
+              <c>&amp;#164;</c>
+            </r>
+            <r>
+              <c>¥</c>
+              <c><![CDATA[ ¥]]></c>
+              <c>Â¥</c>
+              <c>¢å</c>
+              <c>+AKU-</c>
+              <c>\u00a5</c>
+              <c>&amp;#165;</c>
+            </r>
+            <r>
+              <c>¦</c>
+              <c><![CDATA[ ¦]]></c>
+              <c>Â¦</c>
+              <c>¢æ</c>
+              <c>+AKY-</c>
+              <c>\u00a6</c>
+              <c>&amp;#166;</c>
+            </r>
+            <r>
+              <c>§</c>
+              <c><![CDATA[ §]]></c>
+              <c>Â§</c>
+              <c>¢ç</c>
+              <c>+AKc-</c>
+              <c>\u00a7</c>
+              <c>&amp;#167;</c>
+            </r>
+            <r>
+              <c>¨</c>
+              <c><![CDATA[ ¨]]></c>
+              <c>Â¨</c>
+              <c>¢è</c>
+              <c>+AKg-</c>
+              <c>\u00a8</c>
+              <c>&amp;#168;</c>
+            </r>
+            <r>
+              <c>©</c>
+              <c><![CDATA[ ©]]></c>
+              <c>Â©</c>
+              <c>¢é</c>
+              <c>+AKk-</c>
+              <c>\u00a9</c>
+              <c>&amp;#169;</c>
+            </r>
+            <r>
+              <c>ª</c>
+              <c><![CDATA[ ª]]></c>
+              <c>Âª</c>
+              <c>¢ê</c>
+              <c>+AKo-</c>
+              <c>\u00aa</c>
+              <c>&amp;#170;</c>
+            </r>
+            <r>
+              <c>«</c>
+              <c><![CDATA[ «]]></c>
+              <c>Â«</c>
+              <c>¢ë</c>
+              <c>+AKs-</c>
+              <c>\u00ab</c>
+              <c>&amp;#171;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ì</c>
+              <c>+AKw-</c>
+              <c>\u00ac</c>
+              <c>&amp;#172;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>­</c>
+              <c><![CDATA[ ­]]></c>
+              <c>Â­</c>
+              <c>¢í</c>
+              <c>+AK0-</c>
+              <c>\u00ad</c>
+              <c>&amp;#173;</c>
+            </r>
+            <r>
+              <c>®</c>
+              <c><![CDATA[ ®]]></c>
+              <c>Â®</c>
+              <c>¢î</c>
+              <c>+AK4-</c>
+              <c>\u00ae</c>
+              <c>&amp;#174;</c>
+            </r>
+            <r>
+              <c>¯</c>
+              <c><![CDATA[ ¯]]></c>
+              <c>Â¯</c>
+              <c>¢ï</c>
+              <c>+AK8-</c>
+              <c>\u00af</c>
+              <c>&amp;#175;</c>
+            </r>
+            <r>
+              <c>°</c>
+              <c><![CDATA[ °]]></c>
+              <c>Â°</c>
+              <c>¢ð</c>
+              <c>+ALA-</c>
+              <c>\u00b0</c>
+              <c>&amp;#176;</c>
+            </r>
+            <r>
+              <c>±</c>
+              <c><![CDATA[ ±]]></c>
+              <c>Â±</c>
+              <c>¢ñ</c>
+              <c>+ALE-</c>
+              <c>\u00b1</c>
+              <c>&amp;#177;</c>
+            </r>
+            <r>
+              <c>²</c>
+              <c><![CDATA[ ²]]></c>
+              <c>Â²</c>
+              <c>¢ò</c>
+              <c>+ALI-</c>
+              <c>\u00b2</c>
+              <c>&amp;#178;</c>
+            </r>
+            <r>
+              <c>³</c>
+              <c><![CDATA[ ³]]></c>
+              <c>Â³</c>
+              <c>¢ó</c>
+              <c>+ALM-</c>
+              <c>\u00b3</c>
+              <c>&amp;#179;</c>
+            </r>
+            <r>
+              <c>´</c>
+              <c><![CDATA[ ´]]></c>
+              <c>Â´</c>
+              <c>¢ô</c>
+              <c>+ALQ-</c>
+              <c>\u00b4</c>
+              <c>&amp;#180;</c>
+            </r>
+            <r>
+              <c>µ</c>
+              <c><![CDATA[ µ]]></c>
+              <c>Âµ</c>
+              <c>¢õ</c>
+              <c>+ALU-</c>
+              <c>\u00b5</c>
+              <c>&amp;#181;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ö</c>
+              <c>+ALY-</c>
+              <c>\u00b6</c>
+              <c>&amp;#182;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>·</c>
+              <c><![CDATA[ ·]]></c>
+              <c>Â·</c>
+              <c>¢÷</c>
+              <c>+ALc-</c>
+              <c>\u00b7</c>
+              <c>&amp;#183;</c>
+            </r>
+            <r>
+              <c>¸</c>
+              <c><![CDATA[ ¸]]></c>
+              <c>Â¸</c>
+              <c>¢ø</c>
+              <c>+ALg-</c>
+              <c>\u00b8</c>
+              <c>&amp;#184;</c>
+            </r>
+            <r>
+              <c>¹</c>
+              <c><![CDATA[ ¹]]></c>
+              <c>Â¹</c>
+              <c>¢ù</c>
+              <c>+ALk-</c>
+              <c>\u00b9</c>
+              <c>&amp;#185;</c>
+            </r>
+            <r>
+              <c>º</c>
+              <c><![CDATA[ º]]></c>
+              <c>Âº</c>
+              <c>¢ú</c>
+              <c>+ALo-</c>
+              <c>\u00ba</c>
+              <c>&amp;#186;</c>
+            </r>
+            <r>
+              <c>»</c>
+              <c><![CDATA[ »]]></c>
+              <c>Â»</c>
+              <c>¢û</c>
+              <c>+ALs-</c>
+              <c>\u00bb</c>
+              <c>&amp;#187;</c>
+            </r>
+            <r>
+              <c>¼</c>
+              <c><![CDATA[ ¼]]></c>
+              <c>Â¼</c>
+              <c>¢ü</c>
+              <c>+ALw-</c>
+              <c>\u00bc</c>
+              <c>&amp;#188;</c>
+            </r>
+            <r>
+              <c>½</c>
+              <c><![CDATA[ ½]]></c>
+              <c>Â½</c>
+              <c>¢ý</c>
+              <c>+AL0-</c>
+              <c>\u00bd</c>
+              <c>&amp;#189;</c>
+            </r>
+            <r>
+              <c>¾</c>
+              <c><![CDATA[ ¾]]></c>
+              <c>Â¾</c>
+              <c>¢þ</c>
+              <c>+AL4-</c>
+              <c>\u00be</c>
+              <c>&amp;#190;</c>
+            </r>
+            <r>
+              <c>¿</c>
+              <c><![CDATA[ ¿]]></c>
+              <c>Â¿</c>
+              <c>¢ÿ</c>
+              <c>+AL8-</c>
+              <c>\u00bf</c>
+              <c>&amp;#191;</c>
+            </r>
+            <r>
+              <c>À</c>
+              <c><![CDATA[ À]]></c>
+              <c>Ã€</c>
+              <c>£À</c>
+              <c>+AMA-</c>
+              <c>\u00c0</c>
+              <c>&amp;#192;</c>
+            </r>
+            <r>
+              <c>Á</c>
+              <c><![CDATA[ Á]]></c>
+              <c>Ã</c>
+              <c>£Á</c>
+              <c>+AME-</c>
+              <c>\u00c1</c>
+              <c>&amp;#193;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c><![CDATA[ Â]]></c>
+              <c>Ã‚</c>
+              <c>£Â</c>
+              <c>+AMI-</c>
+              <c>\u00c2</c>
+              <c>&amp;#194;</c>
+            </r>
+            <r>
+              <c>Ã</c>
+              <c><![CDATA[ Ã]]></c>
+              <c>Ãƒ</c>
+              <c>£Ã</c>
+              <c>+AMM-</c>
+              <c>\u00c3</c>
+              <c>&amp;#195;</c>
+            </r>
+            <r>
+              <c>Ä</c>
+              <c><![CDATA[ Ä]]></c>
+              <c>Ã„</c>
+              <c>£Ä</c>
+              <c>+AMQ-</c>
+              <c>\u00c4</c>
+              <c>&amp;#196;</c>
+            </r>
+            <r>
+              <c>Å</c>
+              <c><![CDATA[ Å]]></c>
+              <c>Ã…</c>
+              <c>£Å</c>
+              <c>+AMU-</c>
+              <c>\u00c5</c>
+              <c>&amp;#197;</c>
+            </r>
+            <r>
+              <c>Æ</c>
+              <c><![CDATA[ Æ]]></c>
+              <c>Ã†</c>
+              <c>£Æ</c>
+              <c>+AMY-</c>
+              <c>\u00c6</c>
+              <c>&amp;#198;</c>
+            </r>
+            <r>
+              <c>Ç</c>
+              <c><![CDATA[ Ç]]></c>
+              <c>Ã‡</c>
+              <c>£Ç</c>
+              <c>+AMc-</c>
+              <c>\u00c7</c>
+              <c>&amp;#199;</c>
+            </r>
+            <r>
+              <c>È</c>
+              <c><![CDATA[ È]]></c>
+              <c>Ãˆ</c>
+              <c>£È</c>
+              <c>+AMg-</c>
+              <c>\u00c8</c>
+              <c>&amp;#200;</c>
+            </r>
+            <r>
+              <c>É</c>
+              <c><![CDATA[ É]]></c>
+              <c>Ã‰</c>
+              <c>£É</c>
+              <c>+AMk-</c>
+              <c>\u00c9</c>
+              <c>&amp;#201;</c>
+            </r>
+            <r>
+              <c>Ê</c>
+              <c><![CDATA[ Ê]]></c>
+              <c>ÃŠ</c>
+              <c>£Ê</c>
+              <c>+AMo-</c>
+              <c>\u00ca</c>
+              <c>&amp;#202;</c>
+            </r>
+            <r>
+              <c>Ë</c>
+              <c><![CDATA[ Ë]]></c>
+              <c>Ã‹</c>
+              <c>£Ë</c>
+              <c>+AMs-</c>
+              <c>\u00cb</c>
+              <c>&amp;#203;</c>
+            </r>
+            <r>
+              <c>Ì</c>
+              <c><![CDATA[ Ì]]></c>
+              <c>ÃŒ</c>
+              <c>£Ì</c>
+              <c>+AMw-</c>
+              <c>\u00cc</c>
+              <c>&amp;#204;</c>
+            </r>
+            <r>
+              <c>Í</c>
+              <c><![CDATA[ Í]]></c>
+              <c>Ã</c>
+              <c>£Í</c>
+              <c>+AM0-</c>
+              <c>\u00cd</c>
+              <c>&amp;#205;</c>
+            </r>
+            <r>
+              <c>Î</c>
+              <c><![CDATA[ Î]]></c>
+              <c>ÃŽ</c>
+              <c>£Î</c>
+              <c>+AM4-</c>
+              <c>\u00ce</c>
+              <c>&amp;#206;</c>
+            </r>
+            <r>
+              <c>Ï</c>
+              <c><![CDATA[ Ï]]></c>
+              <c>Ã</c>
+              <c>£Ï</c>
+              <c>+AM8-</c>
+              <c>\u00cf</c>
+              <c>&amp;#207;</c>
+            </r>
+            <r>
+              <c>Ð</c>
+              <c><![CDATA[ Ð]]></c>
+              <c>Ã</c>
+              <c>£Ð</c>
+              <c>+ANA-</c>
+              <c>\u00d0</c>
+              <c>&amp;#208;</c>
+            </r>
+            <r>
+              <c>Ñ</c>
+              <c><![CDATA[ Ñ]]></c>
+              <c>Ã‘</c>
+              <c>£Ñ</c>
+              <c>+ANE-</c>
+              <c>\u00d1</c>
+              <c>&amp;#209;</c>
+            </r>
+            <r>
+              <c>Ò</c>
+              <c><![CDATA[ Ò]]></c>
+              <c>Ã’</c>
+              <c>£Ò</c>
+              <c>+ANI-</c>
+              <c>\u00d2</c>
+              <c>&amp;#210;</c>
+            </r>
+            <r>
+              <c>Ó</c>
+              <c><![CDATA[ Ó]]></c>
+              <c>Ã“</c>
+              <c>£Ó</c>
+              <c>+ANM-</c>
+              <c>\u00d3</c>
+              <c>&amp;#211;</c>
+            </r>
+            <r>
+              <c>Ô</c>
+              <c><![CDATA[ Ô]]></c>
+              <c>Ã”</c>
+              <c>£Ô</c>
+              <c>+ANQ-</c>
+              <c>\u00d4</c>
+              <c>&amp;#212;</c>
+            </r>
+            <r>
+              <c>Õ</c>
+              <c><![CDATA[ Õ]]></c>
+              <c>Ã•</c>
+              <c>£Õ</c>
+              <c>+ANU-</c>
+              <c>\u00d5</c>
+              <c>&amp;#213;</c>
+            </r>
+            <r>
+              <c>Ö</c>
+              <c><![CDATA[ Ö]]></c>
+              <c>Ã–</c>
+              <c>£Ö</c>
+              <c>+ANY-</c>
+              <c>\u00d6</c>
+              <c>&amp;#214;</c>
+            </r>
+            <r>
+              <c>×</c>
+              <c><![CDATA[ ×]]></c>
+              <c>Ã—</c>
+              <c>£×</c>
+              <c>+ANc-</c>
+              <c>\u00d7</c>
+              <c>&amp;#215;</c>
+            </r>
+            <r>
+              <c>Ø</c>
+              <c><![CDATA[ Ø]]></c>
+              <c>Ã˜</c>
+              <c>£Ø</c>
+              <c>+ANg-</c>
+              <c>\u00d8</c>
+              <c>&amp;#216;</c>
+            </r>
+            <r>
+              <c>Ù</c>
+              <c><![CDATA[ Ù]]></c>
+              <c>Ã™</c>
+              <c>£Ù</c>
+              <c>+ANk-</c>
+              <c>\u00d9</c>
+              <c>&amp;#217;</c>
+            </r>
+            <r>
+              <c>Ú</c>
+              <c><![CDATA[ Ú]]></c>
+              <c>Ãš</c>
+              <c>£Ú</c>
+              <c>+ANo-</c>
+              <c>\u00da</c>
+              <c>&amp;#218;</c>
+            </r>
+            <r>
+              <c>Û</c>
+              <c><![CDATA[ Û]]></c>
+              <c>Ã›</c>
+              <c>£Û</c>
+              <c>+ANs-</c>
+              <c>\u00db</c>
+              <c>&amp;#219;</c>
+            </r>
+            <r>
+              <c>Ü</c>
+              <c><![CDATA[ Ü]]></c>
+              <c>Ãœ</c>
+              <c>£Ü</c>
+              <c>+ANw-</c>
+              <c>\u00dc</c>
+              <c>&amp;#220;</c>
+            </r>
+            <r>
+              <c>Ý</c>
+              <c><![CDATA[ Ý]]></c>
+              <c>Ã</c>
+              <c>£Ý</c>
+              <c>+AN0-</c>
+              <c>\u00dd</c>
+              <c>&amp;#221;</c>
+            </r>
+            <r>
+              <c>Þ</c>
+              <c><![CDATA[ Þ]]></c>
+              <c>Ãž</c>
+              <c>£Þ</c>
+              <c>+AN4-</c>
+              <c>\u00de</c>
+              <c>&amp;#222;</c>
+            </r>
+            <r>
+              <c>ß</c>
+              <c><![CDATA[ ß]]></c>
+              <c>ÃŸ</c>
+              <c>£ß</c>
+              <c>+AN8-</c>
+              <c>\u00df</c>
+              <c>&amp;#223;</c>
+            </r>
+            <r>
+              <c>à</c>
+              <c><![CDATA[ à]]></c>
+              <c>Ã</c>
+              <c>£à</c>
+              <c>+AOA-</c>
+              <c>\u00e0</c>
+              <c>&amp;#224;</c>
+            </r>
+            <r>
+              <c>á</c>
+              <c><![CDATA[ á]]></c>
+              <c>Ã¡</c>
+              <c>£á</c>
+              <c>+AOE-</c>
+              <c>\u00e1</c>
+              <c>&amp;#225;</c>
+            </r>
+            <r>
+              <c>â</c>
+              <c><![CDATA[ â]]></c>
+              <c>Ã¢</c>
+              <c>£â</c>
+              <c>+AOI-</c>
+              <c>\u00e2</c>
+              <c>&amp;#226;</c>
+            </r>
+            <r>
+              <c>ã</c>
+              <c><![CDATA[ ã]]></c>
+              <c>Ã£</c>
+              <c>£ã</c>
+              <c>+AOM-</c>
+              <c>\u00e3</c>
+              <c>&amp;#227;</c>
+            </r>
+            <r>
+              <c>ä</c>
+              <c><![CDATA[ ä]]></c>
+              <c>Ã¤</c>
+              <c>£ä</c>
+              <c>+AOQ-</c>
+              <c>\u00e4</c>
+              <c>&amp;#228;</c>
+            </r>
+            <r>
+              <c>å</c>
+              <c><![CDATA[ å]]></c>
+              <c>Ã¥</c>
+              <c>£å</c>
+              <c>+AOU-</c>
+              <c>\u00e5</c>
+              <c>&amp;#229;</c>
+            </r>
+            <r>
+              <c>æ</c>
+              <c><![CDATA[ æ]]></c>
+              <c>Ã¦</c>
+              <c>£æ</c>
+              <c>+AOY-</c>
+              <c>\u00e6</c>
+              <c>&amp;#230;</c>
+            </r>
+            <r>
+              <c>ç</c>
+              <c><![CDATA[ ç]]></c>
+              <c>Ã§</c>
+              <c>£ç</c>
+              <c>+AOc-</c>
+              <c>\u00e7</c>
+              <c>&amp;#231;</c>
+            </r>
+            <r>
+              <c>è</c>
+              <c><![CDATA[ è]]></c>
+              <c>Ã¨</c>
+              <c>£è</c>
+              <c>+AOg-</c>
+              <c>\u00e8</c>
+              <c>&amp;#232;</c>
+            </r>
+            <r>
+              <c>é</c>
+              <c><![CDATA[ é]]></c>
+              <c>Ã©</c>
+              <c>£é</c>
+              <c>+AOk-</c>
+              <c>\u00e9</c>
+              <c>&amp;#233;</c>
+            </r>
+            <r>
+              <c>ê</c>
+              <c><![CDATA[ ê]]></c>
+              <c>Ãª</c>
+              <c>£ê</c>
+              <c>+AOo-</c>
+              <c>\u00ea</c>
+              <c>&amp;#234;</c>
+            </r>
+            <r>
+              <c>ë</c>
+              <c><![CDATA[ ë]]></c>
+              <c>Ã«</c>
+              <c>£ë</c>
+              <c>+AOs-</c>
+              <c>\u00eb</c>
+              <c>&amp;#235;</c>
+            </r>
+            <r>
+              <c>ì</c>
+              <c><![CDATA[ ì]]></c>
+              <c>Ã</c>
+              <c>£ì</c>
+              <c>+AOw-</c>
+              <c>\u00ec</c>
+              <c>&amp;#236;</c>
+            </r>
+            <r>
+              <c>í</c>
+              <c><![CDATA[ í]]></c>
+              <c>Ã­</c>
+              <c>£í</c>
+              <c>+AO0-</c>
+              <c>\u00ed</c>
+              <c>&amp;#237;</c>
+            </r>
+            <r>
+              <c>î</c>
+              <c><![CDATA[ î]]></c>
+              <c>Ã®</c>
+              <c>£î</c>
+              <c>+AO4-</c>
+              <c>\u00ee</c>
+              <c>&amp;#238;</c>
+            </r>
+            <r>
+              <c>ï</c>
+              <c><![CDATA[ ï]]></c>
+              <c>Ã¯</c>
+              <c>£ï</c>
+              <c>+AO8-</c>
+              <c>\u00ef</c>
+              <c>&amp;#239;</c>
+            </r>
+            <r>
+              <c>ð</c>
+              <c><![CDATA[ ð]]></c>
+              <c>Ã°</c>
+              <c>£ð</c>
+              <c>+APA-</c>
+              <c>\u00f0</c>
+              <c>&amp;#240;</c>
+            </r>
+            <r>
+              <c>ñ</c>
+              <c><![CDATA[ ñ]]></c>
+              <c>Ã±</c>
+              <c>£ñ</c>
+              <c>+APE-</c>
+              <c>\u00f1</c>
+              <c>&amp;#241;</c>
+            </r>
+            <r>
+              <c>ò</c>
+              <c><![CDATA[ ò]]></c>
+              <c>Ã²</c>
+              <c>£ò</c>
+              <c>+API-</c>
+              <c>\u00f2</c>
+              <c>&amp;#242;</c>
+            </r>
+            <r>
+              <c>ó</c>
+              <c><![CDATA[ ó]]></c>
+              <c>Ã³</c>
+              <c>£ó</c>
+              <c>+APM-</c>
+              <c>\u00f3</c>
+              <c>&amp;#243;</c>
+            </r>
+            <r>
+              <c>ô</c>
+              <c><![CDATA[ ô]]></c>
+              <c>Ã´</c>
+              <c>£ô</c>
+              <c>+APQ-</c>
+              <c>\u00f4</c>
+              <c>&amp;#244;</c>
+            </r>
+            <r>
+              <c>õ</c>
+              <c><![CDATA[ õ]]></c>
+              <c>Ãµ</c>
+              <c>£õ</c>
+              <c>+APU-</c>
+              <c>\u00f5</c>
+              <c>&amp;#245;</c>
+            </r>
+            <r>
+              <c>ö</c>
+              <c><![CDATA[ ö]]></c>
+              <c>Ã</c>
+              <c>£ö</c>
+              <c>+APY-</c>
+              <c>\u00f6</c>
+              <c>&amp;#246;</c>
+            </r>
+            <r>
+              <c>÷</c>
+              <c><![CDATA[ ÷]]></c>
+              <c>Ã·</c>
+              <c>£÷</c>
+              <c>+APc-</c>
+              <c>\u00f7</c>
+              <c>&amp;#247;</c>
+            </r>
+            <r>
+              <c>ø</c>
+              <c><![CDATA[ ø]]></c>
+              <c>Ã¸</c>
+              <c>£ø</c>
+              <c>+APg-</c>
+              <c>\u00f8</c>
+              <c>&amp;#248;</c>
+            </r>
+            <r>
+              <c>ù</c>
+              <c><![CDATA[ ù]]></c>
+              <c>Ã¹</c>
+              <c>£ù</c>
+              <c>+APk-</c>
+              <c>\u00f9</c>
+              <c>&amp;#249;</c>
+            </r>
+            <r>
+              <c>ú</c>
+              <c><![CDATA[ ú]]></c>
+              <c>Ãº</c>
+              <c>£ú</c>
+              <c>+APo-</c>
+              <c>\u00fa</c>
+              <c>&amp;#250;</c>
+            </r>
+            <r>
+              <c>û</c>
+              <c><![CDATA[ û]]></c>
+              <c>Ã»</c>
+              <c>£û</c>
+              <c>+APs-</c>
+              <c>\u00fb</c>
+              <c>&amp;#251;</c>
+            </r>
+            <r>
+              <c>ü</c>
+              <c><![CDATA[ ü]]></c>
+              <c>Ã¼</c>
+              <c>£ü</c>
+              <c>+APw-</c>
+              <c>\u00fc</c>
+              <c>&amp;#252;</c>
+            </r>
+            <r>
+              <c>ý</c>
+              <c><![CDATA[ ý]]></c>
+              <c>Ã½</c>
+              <c>£ý</c>
+              <c>+AP0-</c>
+              <c>\u00fd</c>
+              <c>&amp;#253;</c>
+            </r>
+            <r>
+              <c>þ</c>
+              <c><![CDATA[ þ]]></c>
+              <c>Ã¾</c>
+              <c>£þ</c>
+              <c>+AP4-</c>
+              <c>\u00fe</c>
+              <c>&amp;#254;</c>
+            </r>
+            <r>
+              <c>ÿ</c>
+              <c><![CDATA[ ÿ]]></c>
+              <c>Ã¿</c>
+              <c>£ÿ</c>
+              <c>+AP8-</c>
+              <c>\u00ff</c>
+              <c>&amp;#255;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="582" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Comentario</FieldFind>
+          <FieldSearch>UTF-8</FieldSearch>
+          <ReplaceFoundField>Latin1</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="582" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="96" />
+          <Fields>
+            <Field name="Latin1" />
+            <Field name="UTF-1" />
+            <Field name="UTF-8" />
+            <Field name="UTF-7,5" />
+            <Field name="UTF-7" />
+            <Field name="JAVA" />
+            <Field name="HTML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Â</c>
+              <c>¢à</c>
+              <c>+AKA-</c>
+              <c>\u00a0</c>
+              <c>&amp;#160;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>¡</c>
+              <c><![CDATA[ ¡]]></c>
+              <c>Â¡</c>
+              <c>¢á</c>
+              <c>+AKE-</c>
+              <c>\u00a1</c>
+              <c>&amp;#161;</c>
+            </r>
+            <r>
+              <c>¢</c>
+              <c><![CDATA[ ¢]]></c>
+              <c>Â¢</c>
+              <c>¢â</c>
+              <c>+AKI-</c>
+              <c>\u00a2</c>
+              <c>&amp;#162;</c>
+            </r>
+            <r>
+              <c>£</c>
+              <c><![CDATA[ £]]></c>
+              <c>Â£</c>
+              <c>¢ã</c>
+              <c>+AKM-</c>
+              <c>\u00a3</c>
+              <c>&amp;#163;</c>
+            </r>
+            <r>
+              <c>¤</c>
+              <c><![CDATA[ ¤]]></c>
+              <c>Â¤</c>
+              <c>¢ä</c>
+              <c>+AKQ-</c>
+              <c>\u00a4</c>
+              <c>&amp;#164;</c>
+            </r>
+            <r>
+              <c>¥</c>
+              <c><![CDATA[ ¥]]></c>
+              <c>Â¥</c>
+              <c>¢å</c>
+              <c>+AKU-</c>
+              <c>\u00a5</c>
+              <c>&amp;#165;</c>
+            </r>
+            <r>
+              <c>¦</c>
+              <c><![CDATA[ ¦]]></c>
+              <c>Â¦</c>
+              <c>¢æ</c>
+              <c>+AKY-</c>
+              <c>\u00a6</c>
+              <c>&amp;#166;</c>
+            </r>
+            <r>
+              <c>§</c>
+              <c><![CDATA[ §]]></c>
+              <c>Â§</c>
+              <c>¢ç</c>
+              <c>+AKc-</c>
+              <c>\u00a7</c>
+              <c>&amp;#167;</c>
+            </r>
+            <r>
+              <c>¨</c>
+              <c><![CDATA[ ¨]]></c>
+              <c>Â¨</c>
+              <c>¢è</c>
+              <c>+AKg-</c>
+              <c>\u00a8</c>
+              <c>&amp;#168;</c>
+            </r>
+            <r>
+              <c>©</c>
+              <c><![CDATA[ ©]]></c>
+              <c>Â©</c>
+              <c>¢é</c>
+              <c>+AKk-</c>
+              <c>\u00a9</c>
+              <c>&amp;#169;</c>
+            </r>
+            <r>
+              <c>ª</c>
+              <c><![CDATA[ ª]]></c>
+              <c>Âª</c>
+              <c>¢ê</c>
+              <c>+AKo-</c>
+              <c>\u00aa</c>
+              <c>&amp;#170;</c>
+            </r>
+            <r>
+              <c>«</c>
+              <c><![CDATA[ «]]></c>
+              <c>Â«</c>
+              <c>¢ë</c>
+              <c>+AKs-</c>
+              <c>\u00ab</c>
+              <c>&amp;#171;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ì</c>
+              <c>+AKw-</c>
+              <c>\u00ac</c>
+              <c>&amp;#172;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>­</c>
+              <c><![CDATA[ ­]]></c>
+              <c>Â­</c>
+              <c>¢í</c>
+              <c>+AK0-</c>
+              <c>\u00ad</c>
+              <c>&amp;#173;</c>
+            </r>
+            <r>
+              <c>®</c>
+              <c><![CDATA[ ®]]></c>
+              <c>Â®</c>
+              <c>¢î</c>
+              <c>+AK4-</c>
+              <c>\u00ae</c>
+              <c>&amp;#174;</c>
+            </r>
+            <r>
+              <c>¯</c>
+              <c><![CDATA[ ¯]]></c>
+              <c>Â¯</c>
+              <c>¢ï</c>
+              <c>+AK8-</c>
+              <c>\u00af</c>
+              <c>&amp;#175;</c>
+            </r>
+            <r>
+              <c>°</c>
+              <c><![CDATA[ °]]></c>
+              <c>Â°</c>
+              <c>¢ð</c>
+              <c>+ALA-</c>
+              <c>\u00b0</c>
+              <c>&amp;#176;</c>
+            </r>
+            <r>
+              <c>±</c>
+              <c><![CDATA[ ±]]></c>
+              <c>Â±</c>
+              <c>¢ñ</c>
+              <c>+ALE-</c>
+              <c>\u00b1</c>
+              <c>&amp;#177;</c>
+            </r>
+            <r>
+              <c>²</c>
+              <c><![CDATA[ ²]]></c>
+              <c>Â²</c>
+              <c>¢ò</c>
+              <c>+ALI-</c>
+              <c>\u00b2</c>
+              <c>&amp;#178;</c>
+            </r>
+            <r>
+              <c>³</c>
+              <c><![CDATA[ ³]]></c>
+              <c>Â³</c>
+              <c>¢ó</c>
+              <c>+ALM-</c>
+              <c>\u00b3</c>
+              <c>&amp;#179;</c>
+            </r>
+            <r>
+              <c>´</c>
+              <c><![CDATA[ ´]]></c>
+              <c>Â´</c>
+              <c>¢ô</c>
+              <c>+ALQ-</c>
+              <c>\u00b4</c>
+              <c>&amp;#180;</c>
+            </r>
+            <r>
+              <c>µ</c>
+              <c><![CDATA[ µ]]></c>
+              <c>Âµ</c>
+              <c>¢õ</c>
+              <c>+ALU-</c>
+              <c>\u00b5</c>
+              <c>&amp;#181;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ö</c>
+              <c>+ALY-</c>
+              <c>\u00b6</c>
+              <c>&amp;#182;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>·</c>
+              <c><![CDATA[ ·]]></c>
+              <c>Â·</c>
+              <c>¢÷</c>
+              <c>+ALc-</c>
+              <c>\u00b7</c>
+              <c>&amp;#183;</c>
+            </r>
+            <r>
+              <c>¸</c>
+              <c><![CDATA[ ¸]]></c>
+              <c>Â¸</c>
+              <c>¢ø</c>
+              <c>+ALg-</c>
+              <c>\u00b8</c>
+              <c>&amp;#184;</c>
+            </r>
+            <r>
+              <c>¹</c>
+              <c><![CDATA[ ¹]]></c>
+              <c>Â¹</c>
+              <c>¢ù</c>
+              <c>+ALk-</c>
+              <c>\u00b9</c>
+              <c>&amp;#185;</c>
+            </r>
+            <r>
+              <c>º</c>
+              <c><![CDATA[ º]]></c>
+              <c>Âº</c>
+              <c>¢ú</c>
+              <c>+ALo-</c>
+              <c>\u00ba</c>
+              <c>&amp;#186;</c>
+            </r>
+            <r>
+              <c>»</c>
+              <c><![CDATA[ »]]></c>
+              <c>Â»</c>
+              <c>¢û</c>
+              <c>+ALs-</c>
+              <c>\u00bb</c>
+              <c>&amp;#187;</c>
+            </r>
+            <r>
+              <c>¼</c>
+              <c><![CDATA[ ¼]]></c>
+              <c>Â¼</c>
+              <c>¢ü</c>
+              <c>+ALw-</c>
+              <c>\u00bc</c>
+              <c>&amp;#188;</c>
+            </r>
+            <r>
+              <c>½</c>
+              <c><![CDATA[ ½]]></c>
+              <c>Â½</c>
+              <c>¢ý</c>
+              <c>+AL0-</c>
+              <c>\u00bd</c>
+              <c>&amp;#189;</c>
+            </r>
+            <r>
+              <c>¾</c>
+              <c><![CDATA[ ¾]]></c>
+              <c>Â¾</c>
+              <c>¢þ</c>
+              <c>+AL4-</c>
+              <c>\u00be</c>
+              <c>&amp;#190;</c>
+            </r>
+            <r>
+              <c>¿</c>
+              <c><![CDATA[ ¿]]></c>
+              <c>Â¿</c>
+              <c>¢ÿ</c>
+              <c>+AL8-</c>
+              <c>\u00bf</c>
+              <c>&amp;#191;</c>
+            </r>
+            <r>
+              <c>À</c>
+              <c><![CDATA[ À]]></c>
+              <c>Ã€</c>
+              <c>£À</c>
+              <c>+AMA-</c>
+              <c>\u00c0</c>
+              <c>&amp;#192;</c>
+            </r>
+            <r>
+              <c>Á</c>
+              <c><![CDATA[ Á]]></c>
+              <c>Ã</c>
+              <c>£Á</c>
+              <c>+AME-</c>
+              <c>\u00c1</c>
+              <c>&amp;#193;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c><![CDATA[ Â]]></c>
+              <c>Ã‚</c>
+              <c>£Â</c>
+              <c>+AMI-</c>
+              <c>\u00c2</c>
+              <c>&amp;#194;</c>
+            </r>
+            <r>
+              <c>Ã</c>
+              <c><![CDATA[ Ã]]></c>
+              <c>Ãƒ</c>
+              <c>£Ã</c>
+              <c>+AMM-</c>
+              <c>\u00c3</c>
+              <c>&amp;#195;</c>
+            </r>
+            <r>
+              <c>Ä</c>
+              <c><![CDATA[ Ä]]></c>
+              <c>Ã„</c>
+              <c>£Ä</c>
+              <c>+AMQ-</c>
+              <c>\u00c4</c>
+              <c>&amp;#196;</c>
+            </r>
+            <r>
+              <c>Å</c>
+              <c><![CDATA[ Å]]></c>
+              <c>Ã…</c>
+              <c>£Å</c>
+              <c>+AMU-</c>
+              <c>\u00c5</c>
+              <c>&amp;#197;</c>
+            </r>
+            <r>
+              <c>Æ</c>
+              <c><![CDATA[ Æ]]></c>
+              <c>Ã†</c>
+              <c>£Æ</c>
+              <c>+AMY-</c>
+              <c>\u00c6</c>
+              <c>&amp;#198;</c>
+            </r>
+            <r>
+              <c>Ç</c>
+              <c><![CDATA[ Ç]]></c>
+              <c>Ã‡</c>
+              <c>£Ç</c>
+              <c>+AMc-</c>
+              <c>\u00c7</c>
+              <c>&amp;#199;</c>
+            </r>
+            <r>
+              <c>È</c>
+              <c><![CDATA[ È]]></c>
+              <c>Ãˆ</c>
+              <c>£È</c>
+              <c>+AMg-</c>
+              <c>\u00c8</c>
+              <c>&amp;#200;</c>
+            </r>
+            <r>
+              <c>É</c>
+              <c><![CDATA[ É]]></c>
+              <c>Ã‰</c>
+              <c>£É</c>
+              <c>+AMk-</c>
+              <c>\u00c9</c>
+              <c>&amp;#201;</c>
+            </r>
+            <r>
+              <c>Ê</c>
+              <c><![CDATA[ Ê]]></c>
+              <c>ÃŠ</c>
+              <c>£Ê</c>
+              <c>+AMo-</c>
+              <c>\u00ca</c>
+              <c>&amp;#202;</c>
+            </r>
+            <r>
+              <c>Ë</c>
+              <c><![CDATA[ Ë]]></c>
+              <c>Ã‹</c>
+              <c>£Ë</c>
+              <c>+AMs-</c>
+              <c>\u00cb</c>
+              <c>&amp;#203;</c>
+            </r>
+            <r>
+              <c>Ì</c>
+              <c><![CDATA[ Ì]]></c>
+              <c>ÃŒ</c>
+              <c>£Ì</c>
+              <c>+AMw-</c>
+              <c>\u00cc</c>
+              <c>&amp;#204;</c>
+            </r>
+            <r>
+              <c>Í</c>
+              <c><![CDATA[ Í]]></c>
+              <c>Ã</c>
+              <c>£Í</c>
+              <c>+AM0-</c>
+              <c>\u00cd</c>
+              <c>&amp;#205;</c>
+            </r>
+            <r>
+              <c>Î</c>
+              <c><![CDATA[ Î]]></c>
+              <c>ÃŽ</c>
+              <c>£Î</c>
+              <c>+AM4-</c>
+              <c>\u00ce</c>
+              <c>&amp;#206;</c>
+            </r>
+            <r>
+              <c>Ï</c>
+              <c><![CDATA[ Ï]]></c>
+              <c>Ã</c>
+              <c>£Ï</c>
+              <c>+AM8-</c>
+              <c>\u00cf</c>
+              <c>&amp;#207;</c>
+            </r>
+            <r>
+              <c>Ð</c>
+              <c><![CDATA[ Ð]]></c>
+              <c>Ã</c>
+              <c>£Ð</c>
+              <c>+ANA-</c>
+              <c>\u00d0</c>
+              <c>&amp;#208;</c>
+            </r>
+            <r>
+              <c>Ñ</c>
+              <c><![CDATA[ Ñ]]></c>
+              <c>Ã‘</c>
+              <c>£Ñ</c>
+              <c>+ANE-</c>
+              <c>\u00d1</c>
+              <c>&amp;#209;</c>
+            </r>
+            <r>
+              <c>Ò</c>
+              <c><![CDATA[ Ò]]></c>
+              <c>Ã’</c>
+              <c>£Ò</c>
+              <c>+ANI-</c>
+              <c>\u00d2</c>
+              <c>&amp;#210;</c>
+            </r>
+            <r>
+              <c>Ó</c>
+              <c><![CDATA[ Ó]]></c>
+              <c>Ã“</c>
+              <c>£Ó</c>
+              <c>+ANM-</c>
+              <c>\u00d3</c>
+              <c>&amp;#211;</c>
+            </r>
+            <r>
+              <c>Ô</c>
+              <c><![CDATA[ Ô]]></c>
+              <c>Ã”</c>
+              <c>£Ô</c>
+              <c>+ANQ-</c>
+              <c>\u00d4</c>
+              <c>&amp;#212;</c>
+            </r>
+            <r>
+              <c>Õ</c>
+              <c><![CDATA[ Õ]]></c>
+              <c>Ã•</c>
+              <c>£Õ</c>
+              <c>+ANU-</c>
+              <c>\u00d5</c>
+              <c>&amp;#213;</c>
+            </r>
+            <r>
+              <c>Ö</c>
+              <c><![CDATA[ Ö]]></c>
+              <c>Ã–</c>
+              <c>£Ö</c>
+              <c>+ANY-</c>
+              <c>\u00d6</c>
+              <c>&amp;#214;</c>
+            </r>
+            <r>
+              <c>×</c>
+              <c><![CDATA[ ×]]></c>
+              <c>Ã—</c>
+              <c>£×</c>
+              <c>+ANc-</c>
+              <c>\u00d7</c>
+              <c>&amp;#215;</c>
+            </r>
+            <r>
+              <c>Ø</c>
+              <c><![CDATA[ Ø]]></c>
+              <c>Ã˜</c>
+              <c>£Ø</c>
+              <c>+ANg-</c>
+              <c>\u00d8</c>
+              <c>&amp;#216;</c>
+            </r>
+            <r>
+              <c>Ù</c>
+              <c><![CDATA[ Ù]]></c>
+              <c>Ã™</c>
+              <c>£Ù</c>
+              <c>+ANk-</c>
+              <c>\u00d9</c>
+              <c>&amp;#217;</c>
+            </r>
+            <r>
+              <c>Ú</c>
+              <c><![CDATA[ Ú]]></c>
+              <c>Ãš</c>
+              <c>£Ú</c>
+              <c>+ANo-</c>
+              <c>\u00da</c>
+              <c>&amp;#218;</c>
+            </r>
+            <r>
+              <c>Û</c>
+              <c><![CDATA[ Û]]></c>
+              <c>Ã›</c>
+              <c>£Û</c>
+              <c>+ANs-</c>
+              <c>\u00db</c>
+              <c>&amp;#219;</c>
+            </r>
+            <r>
+              <c>Ü</c>
+              <c><![CDATA[ Ü]]></c>
+              <c>Ãœ</c>
+              <c>£Ü</c>
+              <c>+ANw-</c>
+              <c>\u00dc</c>
+              <c>&amp;#220;</c>
+            </r>
+            <r>
+              <c>Ý</c>
+              <c><![CDATA[ Ý]]></c>
+              <c>Ã</c>
+              <c>£Ý</c>
+              <c>+AN0-</c>
+              <c>\u00dd</c>
+              <c>&amp;#221;</c>
+            </r>
+            <r>
+              <c>Þ</c>
+              <c><![CDATA[ Þ]]></c>
+              <c>Ãž</c>
+              <c>£Þ</c>
+              <c>+AN4-</c>
+              <c>\u00de</c>
+              <c>&amp;#222;</c>
+            </r>
+            <r>
+              <c>ß</c>
+              <c><![CDATA[ ß]]></c>
+              <c>ÃŸ</c>
+              <c>£ß</c>
+              <c>+AN8-</c>
+              <c>\u00df</c>
+              <c>&amp;#223;</c>
+            </r>
+            <r>
+              <c>à</c>
+              <c><![CDATA[ à]]></c>
+              <c>Ã</c>
+              <c>£à</c>
+              <c>+AOA-</c>
+              <c>\u00e0</c>
+              <c>&amp;#224;</c>
+            </r>
+            <r>
+              <c>á</c>
+              <c><![CDATA[ á]]></c>
+              <c>Ã¡</c>
+              <c>£á</c>
+              <c>+AOE-</c>
+              <c>\u00e1</c>
+              <c>&amp;#225;</c>
+            </r>
+            <r>
+              <c>â</c>
+              <c><![CDATA[ â]]></c>
+              <c>Ã¢</c>
+              <c>£â</c>
+              <c>+AOI-</c>
+              <c>\u00e2</c>
+              <c>&amp;#226;</c>
+            </r>
+            <r>
+              <c>ã</c>
+              <c><![CDATA[ ã]]></c>
+              <c>Ã£</c>
+              <c>£ã</c>
+              <c>+AOM-</c>
+              <c>\u00e3</c>
+              <c>&amp;#227;</c>
+            </r>
+            <r>
+              <c>ä</c>
+              <c><![CDATA[ ä]]></c>
+              <c>Ã¤</c>
+              <c>£ä</c>
+              <c>+AOQ-</c>
+              <c>\u00e4</c>
+              <c>&amp;#228;</c>
+            </r>
+            <r>
+              <c>å</c>
+              <c><![CDATA[ å]]></c>
+              <c>Ã¥</c>
+              <c>£å</c>
+              <c>+AOU-</c>
+              <c>\u00e5</c>
+              <c>&amp;#229;</c>
+            </r>
+            <r>
+              <c>æ</c>
+              <c><![CDATA[ æ]]></c>
+              <c>Ã¦</c>
+              <c>£æ</c>
+              <c>+AOY-</c>
+              <c>\u00e6</c>
+              <c>&amp;#230;</c>
+            </r>
+            <r>
+              <c>ç</c>
+              <c><![CDATA[ ç]]></c>
+              <c>Ã§</c>
+              <c>£ç</c>
+              <c>+AOc-</c>
+              <c>\u00e7</c>
+              <c>&amp;#231;</c>
+            </r>
+            <r>
+              <c>è</c>
+              <c><![CDATA[ è]]></c>
+              <c>Ã¨</c>
+              <c>£è</c>
+              <c>+AOg-</c>
+              <c>\u00e8</c>
+              <c>&amp;#232;</c>
+            </r>
+            <r>
+              <c>é</c>
+              <c><![CDATA[ é]]></c>
+              <c>Ã©</c>
+              <c>£é</c>
+              <c>+AOk-</c>
+              <c>\u00e9</c>
+              <c>&amp;#233;</c>
+            </r>
+            <r>
+              <c>ê</c>
+              <c><![CDATA[ ê]]></c>
+              <c>Ãª</c>
+              <c>£ê</c>
+              <c>+AOo-</c>
+              <c>\u00ea</c>
+              <c>&amp;#234;</c>
+            </r>
+            <r>
+              <c>ë</c>
+              <c><![CDATA[ ë]]></c>
+              <c>Ã«</c>
+              <c>£ë</c>
+              <c>+AOs-</c>
+              <c>\u00eb</c>
+              <c>&amp;#235;</c>
+            </r>
+            <r>
+              <c>ì</c>
+              <c><![CDATA[ ì]]></c>
+              <c>Ã</c>
+              <c>£ì</c>
+              <c>+AOw-</c>
+              <c>\u00ec</c>
+              <c>&amp;#236;</c>
+            </r>
+            <r>
+              <c>í</c>
+              <c><![CDATA[ í]]></c>
+              <c>Ã­</c>
+              <c>£í</c>
+              <c>+AO0-</c>
+              <c>\u00ed</c>
+              <c>&amp;#237;</c>
+            </r>
+            <r>
+              <c>î</c>
+              <c><![CDATA[ î]]></c>
+              <c>Ã®</c>
+              <c>£î</c>
+              <c>+AO4-</c>
+              <c>\u00ee</c>
+              <c>&amp;#238;</c>
+            </r>
+            <r>
+              <c>ï</c>
+              <c><![CDATA[ ï]]></c>
+              <c>Ã¯</c>
+              <c>£ï</c>
+              <c>+AO8-</c>
+              <c>\u00ef</c>
+              <c>&amp;#239;</c>
+            </r>
+            <r>
+              <c>ð</c>
+              <c><![CDATA[ ð]]></c>
+              <c>Ã°</c>
+              <c>£ð</c>
+              <c>+APA-</c>
+              <c>\u00f0</c>
+              <c>&amp;#240;</c>
+            </r>
+            <r>
+              <c>ñ</c>
+              <c><![CDATA[ ñ]]></c>
+              <c>Ã±</c>
+              <c>£ñ</c>
+              <c>+APE-</c>
+              <c>\u00f1</c>
+              <c>&amp;#241;</c>
+            </r>
+            <r>
+              <c>ò</c>
+              <c><![CDATA[ ò]]></c>
+              <c>Ã²</c>
+              <c>£ò</c>
+              <c>+API-</c>
+              <c>\u00f2</c>
+              <c>&amp;#242;</c>
+            </r>
+            <r>
+              <c>ó</c>
+              <c><![CDATA[ ó]]></c>
+              <c>Ã³</c>
+              <c>£ó</c>
+              <c>+APM-</c>
+              <c>\u00f3</c>
+              <c>&amp;#243;</c>
+            </r>
+            <r>
+              <c>ô</c>
+              <c><![CDATA[ ô]]></c>
+              <c>Ã´</c>
+              <c>£ô</c>
+              <c>+APQ-</c>
+              <c>\u00f4</c>
+              <c>&amp;#244;</c>
+            </r>
+            <r>
+              <c>õ</c>
+              <c><![CDATA[ õ]]></c>
+              <c>Ãµ</c>
+              <c>£õ</c>
+              <c>+APU-</c>
+              <c>\u00f5</c>
+              <c>&amp;#245;</c>
+            </r>
+            <r>
+              <c>ö</c>
+              <c><![CDATA[ ö]]></c>
+              <c>Ã</c>
+              <c>£ö</c>
+              <c>+APY-</c>
+              <c>\u00f6</c>
+              <c>&amp;#246;</c>
+            </r>
+            <r>
+              <c>÷</c>
+              <c><![CDATA[ ÷]]></c>
+              <c>Ã·</c>
+              <c>£÷</c>
+              <c>+APc-</c>
+              <c>\u00f7</c>
+              <c>&amp;#247;</c>
+            </r>
+            <r>
+              <c>ø</c>
+              <c><![CDATA[ ø]]></c>
+              <c>Ã¸</c>
+              <c>£ø</c>
+              <c>+APg-</c>
+              <c>\u00f8</c>
+              <c>&amp;#248;</c>
+            </r>
+            <r>
+              <c>ù</c>
+              <c><![CDATA[ ù]]></c>
+              <c>Ã¹</c>
+              <c>£ù</c>
+              <c>+APk-</c>
+              <c>\u00f9</c>
+              <c>&amp;#249;</c>
+            </r>
+            <r>
+              <c>ú</c>
+              <c><![CDATA[ ú]]></c>
+              <c>Ãº</c>
+              <c>£ú</c>
+              <c>+APo-</c>
+              <c>\u00fa</c>
+              <c>&amp;#250;</c>
+            </r>
+            <r>
+              <c>û</c>
+              <c><![CDATA[ û]]></c>
+              <c>Ã»</c>
+              <c>£û</c>
+              <c>+APs-</c>
+              <c>\u00fb</c>
+              <c>&amp;#251;</c>
+            </r>
+            <r>
+              <c>ü</c>
+              <c><![CDATA[ ü]]></c>
+              <c>Ã¼</c>
+              <c>£ü</c>
+              <c>+APw-</c>
+              <c>\u00fc</c>
+              <c>&amp;#252;</c>
+            </r>
+            <r>
+              <c>ý</c>
+              <c><![CDATA[ ý]]></c>
+              <c>Ã½</c>
+              <c>£ý</c>
+              <c>+AP0-</c>
+              <c>\u00fd</c>
+              <c>&amp;#253;</c>
+            </r>
+            <r>
+              <c>þ</c>
+              <c><![CDATA[ þ]]></c>
+              <c>Ã¾</c>
+              <c>£þ</c>
+              <c>+AP4-</c>
+              <c>\u00fe</c>
+              <c>&amp;#254;</c>
+            </r>
+            <r>
+              <c>ÿ</c>
+              <c><![CDATA[ ÿ]]></c>
+              <c>Ã¿</c>
+              <c>£ÿ</c>
+              <c>+AP8-</c>
+              <c>\u00ff</c>
+              <c>&amp;#255;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="738" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Ubicacion</FieldFind>
+          <FieldSearch>UTF-8</FieldSearch>
+          <ReplaceFoundField>Latin1</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="882" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Cargo</FieldFind>
+          <FieldSearch>UTF-8</FieldSearch>
+          <ReplaceFoundField>Latin1</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="786" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="96" />
+          <Fields>
+            <Field name="Latin1" />
+            <Field name="UTF-1" />
+            <Field name="UTF-8" />
+            <Field name="UTF-7,5" />
+            <Field name="UTF-7" />
+            <Field name="JAVA" />
+            <Field name="HTML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Â</c>
+              <c>¢à</c>
+              <c>+AKA-</c>
+              <c>\u00a0</c>
+              <c>&amp;#160;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>¡</c>
+              <c><![CDATA[ ¡]]></c>
+              <c>Â¡</c>
+              <c>¢á</c>
+              <c>+AKE-</c>
+              <c>\u00a1</c>
+              <c>&amp;#161;</c>
+            </r>
+            <r>
+              <c>¢</c>
+              <c><![CDATA[ ¢]]></c>
+              <c>Â¢</c>
+              <c>¢â</c>
+              <c>+AKI-</c>
+              <c>\u00a2</c>
+              <c>&amp;#162;</c>
+            </r>
+            <r>
+              <c>£</c>
+              <c><![CDATA[ £]]></c>
+              <c>Â£</c>
+              <c>¢ã</c>
+              <c>+AKM-</c>
+              <c>\u00a3</c>
+              <c>&amp;#163;</c>
+            </r>
+            <r>
+              <c>¤</c>
+              <c><![CDATA[ ¤]]></c>
+              <c>Â¤</c>
+              <c>¢ä</c>
+              <c>+AKQ-</c>
+              <c>\u00a4</c>
+              <c>&amp;#164;</c>
+            </r>
+            <r>
+              <c>¥</c>
+              <c><![CDATA[ ¥]]></c>
+              <c>Â¥</c>
+              <c>¢å</c>
+              <c>+AKU-</c>
+              <c>\u00a5</c>
+              <c>&amp;#165;</c>
+            </r>
+            <r>
+              <c>¦</c>
+              <c><![CDATA[ ¦]]></c>
+              <c>Â¦</c>
+              <c>¢æ</c>
+              <c>+AKY-</c>
+              <c>\u00a6</c>
+              <c>&amp;#166;</c>
+            </r>
+            <r>
+              <c>§</c>
+              <c><![CDATA[ §]]></c>
+              <c>Â§</c>
+              <c>¢ç</c>
+              <c>+AKc-</c>
+              <c>\u00a7</c>
+              <c>&amp;#167;</c>
+            </r>
+            <r>
+              <c>¨</c>
+              <c><![CDATA[ ¨]]></c>
+              <c>Â¨</c>
+              <c>¢è</c>
+              <c>+AKg-</c>
+              <c>\u00a8</c>
+              <c>&amp;#168;</c>
+            </r>
+            <r>
+              <c>©</c>
+              <c><![CDATA[ ©]]></c>
+              <c>Â©</c>
+              <c>¢é</c>
+              <c>+AKk-</c>
+              <c>\u00a9</c>
+              <c>&amp;#169;</c>
+            </r>
+            <r>
+              <c>ª</c>
+              <c><![CDATA[ ª]]></c>
+              <c>Âª</c>
+              <c>¢ê</c>
+              <c>+AKo-</c>
+              <c>\u00aa</c>
+              <c>&amp;#170;</c>
+            </r>
+            <r>
+              <c>«</c>
+              <c><![CDATA[ «]]></c>
+              <c>Â«</c>
+              <c>¢ë</c>
+              <c>+AKs-</c>
+              <c>\u00ab</c>
+              <c>&amp;#171;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ì</c>
+              <c>+AKw-</c>
+              <c>\u00ac</c>
+              <c>&amp;#172;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>­</c>
+              <c><![CDATA[ ­]]></c>
+              <c>Â­</c>
+              <c>¢í</c>
+              <c>+AK0-</c>
+              <c>\u00ad</c>
+              <c>&amp;#173;</c>
+            </r>
+            <r>
+              <c>®</c>
+              <c><![CDATA[ ®]]></c>
+              <c>Â®</c>
+              <c>¢î</c>
+              <c>+AK4-</c>
+              <c>\u00ae</c>
+              <c>&amp;#174;</c>
+            </r>
+            <r>
+              <c>¯</c>
+              <c><![CDATA[ ¯]]></c>
+              <c>Â¯</c>
+              <c>¢ï</c>
+              <c>+AK8-</c>
+              <c>\u00af</c>
+              <c>&amp;#175;</c>
+            </r>
+            <r>
+              <c>°</c>
+              <c><![CDATA[ °]]></c>
+              <c>Â°</c>
+              <c>¢ð</c>
+              <c>+ALA-</c>
+              <c>\u00b0</c>
+              <c>&amp;#176;</c>
+            </r>
+            <r>
+              <c>±</c>
+              <c><![CDATA[ ±]]></c>
+              <c>Â±</c>
+              <c>¢ñ</c>
+              <c>+ALE-</c>
+              <c>\u00b1</c>
+              <c>&amp;#177;</c>
+            </r>
+            <r>
+              <c>²</c>
+              <c><![CDATA[ ²]]></c>
+              <c>Â²</c>
+              <c>¢ò</c>
+              <c>+ALI-</c>
+              <c>\u00b2</c>
+              <c>&amp;#178;</c>
+            </r>
+            <r>
+              <c>³</c>
+              <c><![CDATA[ ³]]></c>
+              <c>Â³</c>
+              <c>¢ó</c>
+              <c>+ALM-</c>
+              <c>\u00b3</c>
+              <c>&amp;#179;</c>
+            </r>
+            <r>
+              <c>´</c>
+              <c><![CDATA[ ´]]></c>
+              <c>Â´</c>
+              <c>¢ô</c>
+              <c>+ALQ-</c>
+              <c>\u00b4</c>
+              <c>&amp;#180;</c>
+            </r>
+            <r>
+              <c>µ</c>
+              <c><![CDATA[ µ]]></c>
+              <c>Âµ</c>
+              <c>¢õ</c>
+              <c>+ALU-</c>
+              <c>\u00b5</c>
+              <c>&amp;#181;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c>¢ö</c>
+              <c>+ALY-</c>
+              <c>\u00b6</c>
+              <c>&amp;#182;</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>·</c>
+              <c><![CDATA[ ·]]></c>
+              <c>Â·</c>
+              <c>¢÷</c>
+              <c>+ALc-</c>
+              <c>\u00b7</c>
+              <c>&amp;#183;</c>
+            </r>
+            <r>
+              <c>¸</c>
+              <c><![CDATA[ ¸]]></c>
+              <c>Â¸</c>
+              <c>¢ø</c>
+              <c>+ALg-</c>
+              <c>\u00b8</c>
+              <c>&amp;#184;</c>
+            </r>
+            <r>
+              <c>¹</c>
+              <c><![CDATA[ ¹]]></c>
+              <c>Â¹</c>
+              <c>¢ù</c>
+              <c>+ALk-</c>
+              <c>\u00b9</c>
+              <c>&amp;#185;</c>
+            </r>
+            <r>
+              <c>º</c>
+              <c><![CDATA[ º]]></c>
+              <c>Âº</c>
+              <c>¢ú</c>
+              <c>+ALo-</c>
+              <c>\u00ba</c>
+              <c>&amp;#186;</c>
+            </r>
+            <r>
+              <c>»</c>
+              <c><![CDATA[ »]]></c>
+              <c>Â»</c>
+              <c>¢û</c>
+              <c>+ALs-</c>
+              <c>\u00bb</c>
+              <c>&amp;#187;</c>
+            </r>
+            <r>
+              <c>¼</c>
+              <c><![CDATA[ ¼]]></c>
+              <c>Â¼</c>
+              <c>¢ü</c>
+              <c>+ALw-</c>
+              <c>\u00bc</c>
+              <c>&amp;#188;</c>
+            </r>
+            <r>
+              <c>½</c>
+              <c><![CDATA[ ½]]></c>
+              <c>Â½</c>
+              <c>¢ý</c>
+              <c>+AL0-</c>
+              <c>\u00bd</c>
+              <c>&amp;#189;</c>
+            </r>
+            <r>
+              <c>¾</c>
+              <c><![CDATA[ ¾]]></c>
+              <c>Â¾</c>
+              <c>¢þ</c>
+              <c>+AL4-</c>
+              <c>\u00be</c>
+              <c>&amp;#190;</c>
+            </r>
+            <r>
+              <c>¿</c>
+              <c><![CDATA[ ¿]]></c>
+              <c>Â¿</c>
+              <c>¢ÿ</c>
+              <c>+AL8-</c>
+              <c>\u00bf</c>
+              <c>&amp;#191;</c>
+            </r>
+            <r>
+              <c>À</c>
+              <c><![CDATA[ À]]></c>
+              <c>Ã€</c>
+              <c>£À</c>
+              <c>+AMA-</c>
+              <c>\u00c0</c>
+              <c>&amp;#192;</c>
+            </r>
+            <r>
+              <c>Á</c>
+              <c><![CDATA[ Á]]></c>
+              <c>Ã</c>
+              <c>£Á</c>
+              <c>+AME-</c>
+              <c>\u00c1</c>
+              <c>&amp;#193;</c>
+            </r>
+            <r>
+              <c>Â</c>
+              <c><![CDATA[ Â]]></c>
+              <c>Ã‚</c>
+              <c>£Â</c>
+              <c>+AMI-</c>
+              <c>\u00c2</c>
+              <c>&amp;#194;</c>
+            </r>
+            <r>
+              <c>Ã</c>
+              <c><![CDATA[ Ã]]></c>
+              <c>Ãƒ</c>
+              <c>£Ã</c>
+              <c>+AMM-</c>
+              <c>\u00c3</c>
+              <c>&amp;#195;</c>
+            </r>
+            <r>
+              <c>Ä</c>
+              <c><![CDATA[ Ä]]></c>
+              <c>Ã„</c>
+              <c>£Ä</c>
+              <c>+AMQ-</c>
+              <c>\u00c4</c>
+              <c>&amp;#196;</c>
+            </r>
+            <r>
+              <c>Å</c>
+              <c><![CDATA[ Å]]></c>
+              <c>Ã…</c>
+              <c>£Å</c>
+              <c>+AMU-</c>
+              <c>\u00c5</c>
+              <c>&amp;#197;</c>
+            </r>
+            <r>
+              <c>Æ</c>
+              <c><![CDATA[ Æ]]></c>
+              <c>Ã†</c>
+              <c>£Æ</c>
+              <c>+AMY-</c>
+              <c>\u00c6</c>
+              <c>&amp;#198;</c>
+            </r>
+            <r>
+              <c>Ç</c>
+              <c><![CDATA[ Ç]]></c>
+              <c>Ã‡</c>
+              <c>£Ç</c>
+              <c>+AMc-</c>
+              <c>\u00c7</c>
+              <c>&amp;#199;</c>
+            </r>
+            <r>
+              <c>È</c>
+              <c><![CDATA[ È]]></c>
+              <c>Ãˆ</c>
+              <c>£È</c>
+              <c>+AMg-</c>
+              <c>\u00c8</c>
+              <c>&amp;#200;</c>
+            </r>
+            <r>
+              <c>É</c>
+              <c><![CDATA[ É]]></c>
+              <c>Ã‰</c>
+              <c>£É</c>
+              <c>+AMk-</c>
+              <c>\u00c9</c>
+              <c>&amp;#201;</c>
+            </r>
+            <r>
+              <c>Ê</c>
+              <c><![CDATA[ Ê]]></c>
+              <c>ÃŠ</c>
+              <c>£Ê</c>
+              <c>+AMo-</c>
+              <c>\u00ca</c>
+              <c>&amp;#202;</c>
+            </r>
+            <r>
+              <c>Ë</c>
+              <c><![CDATA[ Ë]]></c>
+              <c>Ã‹</c>
+              <c>£Ë</c>
+              <c>+AMs-</c>
+              <c>\u00cb</c>
+              <c>&amp;#203;</c>
+            </r>
+            <r>
+              <c>Ì</c>
+              <c><![CDATA[ Ì]]></c>
+              <c>ÃŒ</c>
+              <c>£Ì</c>
+              <c>+AMw-</c>
+              <c>\u00cc</c>
+              <c>&amp;#204;</c>
+            </r>
+            <r>
+              <c>Í</c>
+              <c><![CDATA[ Í]]></c>
+              <c>Ã</c>
+              <c>£Í</c>
+              <c>+AM0-</c>
+              <c>\u00cd</c>
+              <c>&amp;#205;</c>
+            </r>
+            <r>
+              <c>Î</c>
+              <c><![CDATA[ Î]]></c>
+              <c>ÃŽ</c>
+              <c>£Î</c>
+              <c>+AM4-</c>
+              <c>\u00ce</c>
+              <c>&amp;#206;</c>
+            </r>
+            <r>
+              <c>Ï</c>
+              <c><![CDATA[ Ï]]></c>
+              <c>Ã</c>
+              <c>£Ï</c>
+              <c>+AM8-</c>
+              <c>\u00cf</c>
+              <c>&amp;#207;</c>
+            </r>
+            <r>
+              <c>Ð</c>
+              <c><![CDATA[ Ð]]></c>
+              <c>Ã</c>
+              <c>£Ð</c>
+              <c>+ANA-</c>
+              <c>\u00d0</c>
+              <c>&amp;#208;</c>
+            </r>
+            <r>
+              <c>Ñ</c>
+              <c><![CDATA[ Ñ]]></c>
+              <c>Ã‘</c>
+              <c>£Ñ</c>
+              <c>+ANE-</c>
+              <c>\u00d1</c>
+              <c>&amp;#209;</c>
+            </r>
+            <r>
+              <c>Ò</c>
+              <c><![CDATA[ Ò]]></c>
+              <c>Ã’</c>
+              <c>£Ò</c>
+              <c>+ANI-</c>
+              <c>\u00d2</c>
+              <c>&amp;#210;</c>
+            </r>
+            <r>
+              <c>Ó</c>
+              <c><![CDATA[ Ó]]></c>
+              <c>Ã“</c>
+              <c>£Ó</c>
+              <c>+ANM-</c>
+              <c>\u00d3</c>
+              <c>&amp;#211;</c>
+            </r>
+            <r>
+              <c>Ô</c>
+              <c><![CDATA[ Ô]]></c>
+              <c>Ã”</c>
+              <c>£Ô</c>
+              <c>+ANQ-</c>
+              <c>\u00d4</c>
+              <c>&amp;#212;</c>
+            </r>
+            <r>
+              <c>Õ</c>
+              <c><![CDATA[ Õ]]></c>
+              <c>Ã•</c>
+              <c>£Õ</c>
+              <c>+ANU-</c>
+              <c>\u00d5</c>
+              <c>&amp;#213;</c>
+            </r>
+            <r>
+              <c>Ö</c>
+              <c><![CDATA[ Ö]]></c>
+              <c>Ã–</c>
+              <c>£Ö</c>
+              <c>+ANY-</c>
+              <c>\u00d6</c>
+              <c>&amp;#214;</c>
+            </r>
+            <r>
+              <c>×</c>
+              <c><![CDATA[ ×]]></c>
+              <c>Ã—</c>
+              <c>£×</c>
+              <c>+ANc-</c>
+              <c>\u00d7</c>
+              <c>&amp;#215;</c>
+            </r>
+            <r>
+              <c>Ø</c>
+              <c><![CDATA[ Ø]]></c>
+              <c>Ã˜</c>
+              <c>£Ø</c>
+              <c>+ANg-</c>
+              <c>\u00d8</c>
+              <c>&amp;#216;</c>
+            </r>
+            <r>
+              <c>Ù</c>
+              <c><![CDATA[ Ù]]></c>
+              <c>Ã™</c>
+              <c>£Ù</c>
+              <c>+ANk-</c>
+              <c>\u00d9</c>
+              <c>&amp;#217;</c>
+            </r>
+            <r>
+              <c>Ú</c>
+              <c><![CDATA[ Ú]]></c>
+              <c>Ãš</c>
+              <c>£Ú</c>
+              <c>+ANo-</c>
+              <c>\u00da</c>
+              <c>&amp;#218;</c>
+            </r>
+            <r>
+              <c>Û</c>
+              <c><![CDATA[ Û]]></c>
+              <c>Ã›</c>
+              <c>£Û</c>
+              <c>+ANs-</c>
+              <c>\u00db</c>
+              <c>&amp;#219;</c>
+            </r>
+            <r>
+              <c>Ü</c>
+              <c><![CDATA[ Ü]]></c>
+              <c>Ãœ</c>
+              <c>£Ü</c>
+              <c>+ANw-</c>
+              <c>\u00dc</c>
+              <c>&amp;#220;</c>
+            </r>
+            <r>
+              <c>Ý</c>
+              <c><![CDATA[ Ý]]></c>
+              <c>Ã</c>
+              <c>£Ý</c>
+              <c>+AN0-</c>
+              <c>\u00dd</c>
+              <c>&amp;#221;</c>
+            </r>
+            <r>
+              <c>Þ</c>
+              <c><![CDATA[ Þ]]></c>
+              <c>Ãž</c>
+              <c>£Þ</c>
+              <c>+AN4-</c>
+              <c>\u00de</c>
+              <c>&amp;#222;</c>
+            </r>
+            <r>
+              <c>ß</c>
+              <c><![CDATA[ ß]]></c>
+              <c>ÃŸ</c>
+              <c>£ß</c>
+              <c>+AN8-</c>
+              <c>\u00df</c>
+              <c>&amp;#223;</c>
+            </r>
+            <r>
+              <c>à</c>
+              <c><![CDATA[ à]]></c>
+              <c>Ã</c>
+              <c>£à</c>
+              <c>+AOA-</c>
+              <c>\u00e0</c>
+              <c>&amp;#224;</c>
+            </r>
+            <r>
+              <c>á</c>
+              <c><![CDATA[ á]]></c>
+              <c>Ã¡</c>
+              <c>£á</c>
+              <c>+AOE-</c>
+              <c>\u00e1</c>
+              <c>&amp;#225;</c>
+            </r>
+            <r>
+              <c>â</c>
+              <c><![CDATA[ â]]></c>
+              <c>Ã¢</c>
+              <c>£â</c>
+              <c>+AOI-</c>
+              <c>\u00e2</c>
+              <c>&amp;#226;</c>
+            </r>
+            <r>
+              <c>ã</c>
+              <c><![CDATA[ ã]]></c>
+              <c>Ã£</c>
+              <c>£ã</c>
+              <c>+AOM-</c>
+              <c>\u00e3</c>
+              <c>&amp;#227;</c>
+            </r>
+            <r>
+              <c>ä</c>
+              <c><![CDATA[ ä]]></c>
+              <c>Ã¤</c>
+              <c>£ä</c>
+              <c>+AOQ-</c>
+              <c>\u00e4</c>
+              <c>&amp;#228;</c>
+            </r>
+            <r>
+              <c>å</c>
+              <c><![CDATA[ å]]></c>
+              <c>Ã¥</c>
+              <c>£å</c>
+              <c>+AOU-</c>
+              <c>\u00e5</c>
+              <c>&amp;#229;</c>
+            </r>
+            <r>
+              <c>æ</c>
+              <c><![CDATA[ æ]]></c>
+              <c>Ã¦</c>
+              <c>£æ</c>
+              <c>+AOY-</c>
+              <c>\u00e6</c>
+              <c>&amp;#230;</c>
+            </r>
+            <r>
+              <c>ç</c>
+              <c><![CDATA[ ç]]></c>
+              <c>Ã§</c>
+              <c>£ç</c>
+              <c>+AOc-</c>
+              <c>\u00e7</c>
+              <c>&amp;#231;</c>
+            </r>
+            <r>
+              <c>è</c>
+              <c><![CDATA[ è]]></c>
+              <c>Ã¨</c>
+              <c>£è</c>
+              <c>+AOg-</c>
+              <c>\u00e8</c>
+              <c>&amp;#232;</c>
+            </r>
+            <r>
+              <c>é</c>
+              <c><![CDATA[ é]]></c>
+              <c>Ã©</c>
+              <c>£é</c>
+              <c>+AOk-</c>
+              <c>\u00e9</c>
+              <c>&amp;#233;</c>
+            </r>
+            <r>
+              <c>ê</c>
+              <c><![CDATA[ ê]]></c>
+              <c>Ãª</c>
+              <c>£ê</c>
+              <c>+AOo-</c>
+              <c>\u00ea</c>
+              <c>&amp;#234;</c>
+            </r>
+            <r>
+              <c>ë</c>
+              <c><![CDATA[ ë]]></c>
+              <c>Ã«</c>
+              <c>£ë</c>
+              <c>+AOs-</c>
+              <c>\u00eb</c>
+              <c>&amp;#235;</c>
+            </r>
+            <r>
+              <c>ì</c>
+              <c><![CDATA[ ì]]></c>
+              <c>Ã</c>
+              <c>£ì</c>
+              <c>+AOw-</c>
+              <c>\u00ec</c>
+              <c>&amp;#236;</c>
+            </r>
+            <r>
+              <c>í</c>
+              <c><![CDATA[ í]]></c>
+              <c>Ã­</c>
+              <c>£í</c>
+              <c>+AO0-</c>
+              <c>\u00ed</c>
+              <c>&amp;#237;</c>
+            </r>
+            <r>
+              <c>î</c>
+              <c><![CDATA[ î]]></c>
+              <c>Ã®</c>
+              <c>£î</c>
+              <c>+AO4-</c>
+              <c>\u00ee</c>
+              <c>&amp;#238;</c>
+            </r>
+            <r>
+              <c>ï</c>
+              <c><![CDATA[ ï]]></c>
+              <c>Ã¯</c>
+              <c>£ï</c>
+              <c>+AO8-</c>
+              <c>\u00ef</c>
+              <c>&amp;#239;</c>
+            </r>
+            <r>
+              <c>ð</c>
+              <c><![CDATA[ ð]]></c>
+              <c>Ã°</c>
+              <c>£ð</c>
+              <c>+APA-</c>
+              <c>\u00f0</c>
+              <c>&amp;#240;</c>
+            </r>
+            <r>
+              <c>ñ</c>
+              <c><![CDATA[ ñ]]></c>
+              <c>Ã±</c>
+              <c>£ñ</c>
+              <c>+APE-</c>
+              <c>\u00f1</c>
+              <c>&amp;#241;</c>
+            </r>
+            <r>
+              <c>ò</c>
+              <c><![CDATA[ ò]]></c>
+              <c>Ã²</c>
+              <c>£ò</c>
+              <c>+API-</c>
+              <c>\u00f2</c>
+              <c>&amp;#242;</c>
+            </r>
+            <r>
+              <c>ó</c>
+              <c><![CDATA[ ó]]></c>
+              <c>Ã³</c>
+              <c>£ó</c>
+              <c>+APM-</c>
+              <c>\u00f3</c>
+              <c>&amp;#243;</c>
+            </r>
+            <r>
+              <c>ô</c>
+              <c><![CDATA[ ô]]></c>
+              <c>Ã´</c>
+              <c>£ô</c>
+              <c>+APQ-</c>
+              <c>\u00f4</c>
+              <c>&amp;#244;</c>
+            </r>
+            <r>
+              <c>õ</c>
+              <c><![CDATA[ õ]]></c>
+              <c>Ãµ</c>
+              <c>£õ</c>
+              <c>+APU-</c>
+              <c>\u00f5</c>
+              <c>&amp;#245;</c>
+            </r>
+            <r>
+              <c>ö</c>
+              <c><![CDATA[ ö]]></c>
+              <c>Ã</c>
+              <c>£ö</c>
+              <c>+APY-</c>
+              <c>\u00f6</c>
+              <c>&amp;#246;</c>
+            </r>
+            <r>
+              <c>÷</c>
+              <c><![CDATA[ ÷]]></c>
+              <c>Ã·</c>
+              <c>£÷</c>
+              <c>+APc-</c>
+              <c>\u00f7</c>
+              <c>&amp;#247;</c>
+            </r>
+            <r>
+              <c>ø</c>
+              <c><![CDATA[ ø]]></c>
+              <c>Ã¸</c>
+              <c>£ø</c>
+              <c>+APg-</c>
+              <c>\u00f8</c>
+              <c>&amp;#248;</c>
+            </r>
+            <r>
+              <c>ù</c>
+              <c><![CDATA[ ù]]></c>
+              <c>Ã¹</c>
+              <c>£ù</c>
+              <c>+APk-</c>
+              <c>\u00f9</c>
+              <c>&amp;#249;</c>
+            </r>
+            <r>
+              <c>ú</c>
+              <c><![CDATA[ ú]]></c>
+              <c>Ãº</c>
+              <c>£ú</c>
+              <c>+APo-</c>
+              <c>\u00fa</c>
+              <c>&amp;#250;</c>
+            </r>
+            <r>
+              <c>û</c>
+              <c><![CDATA[ û]]></c>
+              <c>Ã»</c>
+              <c>£û</c>
+              <c>+APs-</c>
+              <c>\u00fb</c>
+              <c>&amp;#251;</c>
+            </r>
+            <r>
+              <c>ü</c>
+              <c><![CDATA[ ü]]></c>
+              <c>Ã¼</c>
+              <c>£ü</c>
+              <c>+APw-</c>
+              <c>\u00fc</c>
+              <c>&amp;#252;</c>
+            </r>
+            <r>
+              <c>ý</c>
+              <c><![CDATA[ ý]]></c>
+              <c>Ã½</c>
+              <c>£ý</c>
+              <c>+AP0-</c>
+              <c>\u00fd</c>
+              <c>&amp;#253;</c>
+            </r>
+            <r>
+              <c>þ</c>
+              <c><![CDATA[ þ]]></c>
+              <c>Ã¾</c>
+              <c>£þ</c>
+              <c>+AP4-</c>
+              <c>\u00fe</c>
+              <c>&amp;#254;</c>
+            </r>
+            <r>
+              <c>ÿ</c>
+              <c><![CDATA[ ÿ]]></c>
+              <c>Ã¿</c>
+              <c>£ÿ</c>
+              <c>+AP8-</c>
+              <c>\u00ff</c>
+              <c>&amp;#255;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1242" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\danie\OneDrive\Escritorio\Data Science\Santander_Project\Salida.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Salida.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="990" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Rate"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="1098" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\danie\onedrive\escritorio\data science\santander_project\proyecto_alteryx.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>jupytertool_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>57594</Port>
+          <JupyterGuidDir>9b443f11-7375-49f0-8455-cf5b0dcaf32f</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2020.2.3.27789</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"markdown","metadata":{},"source":["# Preparación de las librerías a utilizar#\n"]},{"cell_type":"code","execution_count":2,"metadata":{},"outputs":[],"source":["from ayx import Alteryx\n","from nltk.tokenize import RegexpTokenizer\n","from nltk.corpus import stopwords\n","from nltk.stem import PorterStemmer, WordNetLemmatizer\n","from gensim import corpora, models\n","import gensim\n","import pandas as pd\n","import numpy as np\n","import nltk \n","nltk.download('wordnet')"]},{"cell_type":"markdown","metadata":{},"source":["**Aquí estamos preparando las bases o datos que se sacaron del webscrapping**"]},{"cell_type":"code","execution_count":3,"metadata":{},"outputs":[],"source":["file = r'C:\\Users\\danie\\OneDrive\\Escritorio\\Data Science\\Santander_Project\\Salida.xlsx'\n","\n","df = Alteryx.read('#1')\n","#df.dropna(inplace=True)\n","\n","df[df['Rate'] != 3] #No lo tomé porque hay opinion divididas en un rating del 3\n","\n","df['Pos_Bool'] = np.where(df['Rate'] > 3, 1, 0)\n","df_pos = df[df['Pos_Bool'] == 1]\n","df_neg = df[df['Pos_Bool'] == 0]\n","\n","\n"]},{"cell_type":"markdown","metadata":{},"source":["# LDA Model: Aquí finalmente aplicamos el modelo."]},{"cell_type":"code","execution_count":4,"metadata":{},"outputs":[],"source":["tokenizer = RegexpTokenizer(r'\\w+')\n","spanish_stopwords = stopwords.words('spanish')\n","\n","# --------------------------------------------------------------------------------\n","\n","\n","#p_stemmer of class PorterStemmer\n","p_stemmer = PorterStemmer()\n","wnl = WordNetLemmatizer()\n","\n","\n","# compile sample documents into a list\n","set = [com for com in df_pos['Comentario']]\n","\n","# list for tokenized documents in loop\n","texts = []\n","\n","# loop through document list\n","for i in set:\n","    \n","    # clean and tokenize document string\n","    raw = i.lower()\n","    tokens = tokenizer.tokenize(raw)\n","\n","    # remove stop words from tokens\n","    stopped_tokens = [i for i in tokens if not i in spanish_stopwords]\n","    \n","    # stem tokens\n","    stemmed_tokens = [wnl.lemmatize(i) for i in stopped_tokens]\n","    \n","    # add tokens to list\n","    texts.append(stemmed_tokens)\n","    \n","    \n","\n","# turn our tokenized documents into a id <-> term dictionary\n","dictionary = corpora.Dictionary(texts)\n","    \n","# convert tokenized documents into a document-term matrix\n","corpus = [dictionary.doc2bow(text) for text in texts]\n","\n","# generate LDA model\n","ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=6, id2word = dictionary, passes=20)\n","ldamodel.print_topics(num_topics=5, num_words=7)"]},{"cell_type":"code","execution_count":5,"metadata":{},"outputs":[],"source":["tokenizer = RegexpTokenizer(r'\\w+')\n","\n","# create English stop words list\n","spanish_stopwords = stopwords.words('spanish')\n","wnl = WordNetLemmatizer()\n","# --------------------------------------------------------------------------------\n","\n","\n","\n","# ---------------------------------------------------------------------------------\n","\n","# Create p_stemmer of class PorterStemmer\n","p_stemmer = PorterStemmer()\n","    \n","# create sample documents\n","\n","\n","# compile sample documents into a list\n","set_neg = [com for com in df_neg['Comentario']]\n","\n","# list for tokenized documents in loop\n","texts_neg = []\n","\n","# loop through document list\n","for i in set_neg:\n","    \n","    # clean and tokenize document string\n","    raw_n = i.lower()\n","    tokens_n = tokenizer.tokenize(raw_n)\n","\n","    # remove stop words from tokens\n","    stopped_tokens_n = [i for i in tokens if not i in spanish_stopwords]\n","    \n","    # stem tokens\n","    stemmed_tokens_n = [wnl.lemmatize(i) for i in stopped_tokens_n]\n","    \n","    # add tokens to list\n","    texts_neg.append(stemmed_tokens_n)\n","\n","# turn our tokenized documents into a id <-> term dictionary\n","dictionary_n = corpora.Dictionary(texts_neg)\n","    \n","# convert tokenized documents into a document-term matrix\n","corpus_n = [dictionary_n.doc2bow(text) for text in texts_neg]\n","\n","# generate LDA model\n","ldamodel_pos = gensim.models.ldamodel.LdaModel(corpus_n, num_topics=3, id2word = dictionary_n, passes=20)\n","print(ldamodel_pos.print_topics(num_topics=3, num_words=7))"]},{"cell_type":"code","execution_count":6,"metadata":{},"outputs":[],"source":["Alteryx.write(df,1)"]}],"metadata":{"kernelspec":{"display_name":"jupytertool_venv","language":"python","name":"jupytertool_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="Cargo" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="Comentario" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="Ubicacion" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="Rate" source="PythonTool:" type="Int32" />
+            <Field name="Pos_Bool" source="PythonTool:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Source" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output1" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Proyecto_Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
