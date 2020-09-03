@@ -12,7 +12,8 @@ Ahora bien, expliquemos un poco que fue lo que se hizo...
 
 Desafío
 
-Desafío 1: "Primero, probar las funcionalidades de Alteryx y poder utilizarlo para generar un flujo de trabajo mediante un ejemplo práctico. Y segundo, testear la integración que tienen con otros programas en este caso Python" 
+Desafío 1: "Primero, probar las funcionalidades de Alteryx y poder utilizarlo para generar un flujo de trabajo mediante un ejemplo práctico. Y segundo, testear la integración que tienen con otros programas en este caso Python"
+
 Desafío 2 (desafío personal) : "Entrenar un algoritmo de machine learning dentro de alteryx con el objetivo que funcione, arroje resultados y podamos obtener la data para ver resultados"
 
 Resumen del proyecto
